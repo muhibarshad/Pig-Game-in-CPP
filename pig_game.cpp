@@ -59,7 +59,7 @@ void hold_dice()
 {
 
     score[activePlayer] += currentScore;
-    if (score[activePlayer] >= 100)
+    if (score[activePlayer] >= 30)
     {
         flag = true;
         frontDisplay(randG, activePlayer);
